@@ -13,4 +13,8 @@ public class Estudiante {
     public void mostrarInfo() {
         System.out.println("Estudiante: " + nombre + " - Carnet: " + carnet);
     }
+
+    public void setNombre(String nuevoNombre){
+        this.nombre = nuevoNombre;
+    }
 }
